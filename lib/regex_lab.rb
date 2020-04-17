@@ -1,7 +1,5 @@
 require 'pry'
 def starts_with_a_vowel?(word)
-  #
-  binding.pry
   if !!word.match(/\A[aeiou]/i) == true
     true
   else
